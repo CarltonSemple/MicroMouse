@@ -1,0 +1,222 @@
+
+
+Sat Mar 29 13:11:21 2014
+Command line: TestDisk
+
+TestDisk 6.14, Data Recovery Utility, July 2013
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Darwin, kernel 12.5.0 (Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.4
+Compiler: GCC 4.2
+Compilation date: 2013-10-30T10:29:36
+ext2fs lib: none, ntfs lib: none, reiserfs lib: none, ewf lib: none
+Hard disk list
+Disk /dev/disk0 - 256 GB / 238 GiB - 500118192 sectors (RO), sector size=512
+Disk /dev/disk1 - 250 GB / 232 GiB - 488397168 sectors (RO), sector size=512
+Disk /dev/disk2 - 7742 MB / 7384 MiB - 15122432 sectors, sector size=512
+Disk /dev/rdisk0 - 256 GB / 238 GiB - 500118192 sectors (RO), sector size=512
+Disk /dev/rdisk1 - 250 GB / 232 GiB - 488397168 sectors (RO), sector size=512
+Disk /dev/rdisk2 - 7742 MB / 7384 MiB - 15122432 sectors, sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/rdisk2 - 7742 MB / 7384 MiB
+Partition table type: Intel
+
+Analyse Disk /dev/rdisk2 - 7742 MB / 7384 MiB - 15122432 sectors
+Geometry from i386 MBR: head=168 sector=10
+FAT16 at 2048/0/1
+check_FAT: Unusual number of reserved sectors 8 (FAT), should be 1.
+Info: size boot_sector 196608, partition 196608
+FAT1 : 8-199
+FAT2 : 200-391
+start_rootdir : 392
+Data : 424-196607
+sectors : 196608
+cluster_size : 4
+no_of_cluster : 49046 (2 - 49047)
+fat_length 192 calculated 192
+heads/cylinder 239 (FAT) != 1 (HD)
+sect/track 62 (FAT) != 1 (HD)
+BAD_RS LBA=198656 118
+get_geometry_from_list_part_aux head=1 nbr=4
+get_geometry_from_list_part_aux head=8 nbr=4
+get_geometry_from_list_part_aux head=16 nbr=4
+get_geometry_from_list_part_aux head=32 nbr=4
+get_geometry_from_list_part_aux head=64 nbr=4
+get_geometry_from_list_part_aux head=128 nbr=4
+Current partition structure:
+check_FAT: Unusual number of reserved sectors 8 (FAT), should be 1.
+Warning: number of heads/cylinder mismatches 239 (FAT) != 1 (HD)
+Warning: number of sectors per track mismatches 62 (FAT) != 1 (HD)
+ 1 * FAT16 LBA                   2048     198655     196608 [NO NAME]
+
+Warning: Bad starting sector (CHS and LBA don't match)
+ 2 P Linux                     198656   14739455   14540800 [rootfs]
+
+Warning: Bad starting sector (CHS and LBA don't match)
+Backup partition structure
+partition_save
+
+search_part()
+Disk /dev/rdisk2 - 7742 MB / 7384 MiB - 15122432 sectors
+FAT16 at 2048/0/1
+check_FAT: Unusual number of reserved sectors 8 (FAT), should be 1.
+FAT1 : 8-199
+FAT2 : 200-391
+start_rootdir : 392
+Data : 424-196607
+sectors : 196608
+cluster_size : 4
+no_of_cluster : 49046 (2 - 49047)
+fat_length 192 calculated 192
+heads/cylinder 239 (FAT) != 1 (HD)
+sect/track 62 (FAT) != 1 (HD)
+
+FAT16 at 2048/0/1
+     FAT16 LBA                   2048     198655     196608 [NO NAME]
+     FAT16, blocksize=2048, 100 MB / 96 MiB
+
+recover_EXT2: s_block_group_nr=0/55, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 1817600
+recover_EXT2: part_size 14540800
+     Linux                     198656   14739455   14540800 [rootfs]
+     ext4 blocksize=4096 Large file Sparse superblock, 7444 MB / 7100 MiB
+Search for partition aborted
+get_geometry_from_list_part_aux head=1 nbr=4
+get_geometry_from_list_part_aux head=8 nbr=4
+get_geometry_from_list_part_aux head=16 nbr=4
+get_geometry_from_list_part_aux head=32 nbr=4
+get_geometry_from_list_part_aux head=64 nbr=4
+get_geometry_from_list_part_aux head=128 nbr=4
+Warning: the current number of heads per cylinder is 1 but the correct value may be 128.
+
+Results
+   * FAT16 LBA                   2048     198655     196608 [NO NAME]
+     FAT16, blocksize=2048, 100 MB / 96 MiB
+   P Linux                     198656   14739455   14540800 [rootfs]
+     ext4 blocksize=4096 Large file Sparse superblock, 7444 MB / 7100 MiB
+
+interface_write()
+ 1 * FAT16 LBA                   2048     198655     196608 [NO NAME]
+ 2 P Linux                     198656   14739455   14540800 [rootfs]
+simulate write!
+
+write_mbr_i386: starting...
+write_all_log_i386: starting...
+No extended partition
+Partition table type (auto): Intel
+Disk /dev/rdisk2 - 7742 MB / 7384 MiB
+Partition table type: EFI GPT
+
+Interface Advanced
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+
+Analyse Disk /dev/rdisk2 - 7742 MB / 7384 MiB - 15122432 sectors
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+Current partition structure:
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+
+search_part()
+Disk /dev/rdisk2 - 7742 MB / 7384 MiB - 15122432 sectors
+FAT16 at 2048/0/1
+check_FAT: Unusual number of reserved sectors 8 (FAT), should be 1.
+FAT1 : 8-199
+FAT2 : 200-391
+start_rootdir : 392
+Data : 424-196607
+sectors : 196608
+cluster_size : 4
+no_of_cluster : 49046 (2 - 49047)
+fat_length 192 calculated 192
+heads/cylinder 239 (FAT) != 1 (HD)
+sect/track 62 (FAT) != 1 (HD)
+
+FAT16 at 2048/0/1
+     MS Data                     2048     198655     196608 [NO NAME]
+     FAT16, blocksize=2048, 100 MB / 96 MiB
+
+recover_EXT2: s_block_group_nr=0/55, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 1817600
+recover_EXT2: part_size 14540800
+     MS Data                   198656   14739455   14540800 [rootfs]
+     ext4 blocksize=4096 Large file Sparse superblock, 7444 MB / 7100 MiB
+
+Results
+   P MS Data                     2048     198655     196608 [NO NAME]
+     FAT16, blocksize=2048, 100 MB / 96 MiB
+   P MS Data                   198656   14739455   14540800 [rootfs]
+     ext4 blocksize=4096 Large file Sparse superblock, 7444 MB / 7100 MiB
+
+interface_write()
+ 1 P MS Data                     2048     198655     196608 [NO NAME]
+ 2 P MS Data                   198656   14739455   14540800 [rootfs]
+simulate write!
+
+Interface Advanced
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+New options :
+ Dump : No
+ Align partition: Yes
+ Expert mode : Yes
+
+Interface Advanced
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+New options :
+ Dump : No
+ Align partition: Yes
+ Expert mode : No
+
+Analyse Disk /dev/rdisk2 - 7742 MB / 7384 MiB - 15122432 sectors
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+Current partition structure:
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+
+search_part()
+Disk /dev/rdisk2 - 7742 MB / 7384 MiB - 15122432 sectors
+FAT16 at 2048/0/1
+check_FAT: Unusual number of reserved sectors 8 (FAT), should be 1.
+FAT1 : 8-199
+FAT2 : 200-391
+start_rootdir : 392
+Data : 424-196607
+sectors : 196608
+cluster_size : 4
+no_of_cluster : 49046 (2 - 49047)
+fat_length 192 calculated 192
+heads/cylinder 239 (FAT) != 1 (HD)
+sect/track 62 (FAT) != 1 (HD)
+
+FAT16 at 2048/0/1
+     MS Data                     2048     198655     196608 [NO NAME]
+     FAT16, blocksize=2048, 100 MB / 96 MiB
+
+recover_EXT2: s_block_group_nr=0/55, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 1817600
+recover_EXT2: part_size 14540800
+     MS Data                   198656   14739455   14540800 [rootfs]
+     ext4 blocksize=4096 Large file Sparse superblock, 7444 MB / 7100 MiB
+Search for partition aborted
+
+Results
+   P MS Data                     2048     198655     196608 [NO NAME]
+     FAT16, blocksize=2048, 100 MB / 96 MiB
+   P MS Data                   198656   14739455   14540800 [rootfs]
+     ext4 blocksize=4096 Large file Sparse superblock, 7444 MB / 7100 MiB
+SIGINT detected! TestDisk has been killed.

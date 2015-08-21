@@ -1,43 +1,94 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/cell.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/cell.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/cell.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/device.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/device.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/device.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/grid.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/grid.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/grid.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/lidar.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/lidar.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/lidar.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/main.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/main.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/main.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/micromouse2014.LinkFileList
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/micromouse2014_dependency_info.dat
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/motor.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/motor.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/motor.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/packet.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/packet.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/packet.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/wall.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/wall.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/wall.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/build-state.dat
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/build-state~.dat
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/micromouse2014-all-target-headers.hmap
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/micromouse2014-generated-files.hmap
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/micromouse2014-own-target-headers.hmap
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/micromouse2014-project-headers.hmap
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/micromouse2014.dep
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/micromouse2014.hmap
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/micromouse2014~.dep
+micromouse2014/micromouse2014.xcodeproj/project.pbxproj
+micromouse2014/micromouse2014.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+micromouse2014/micromouse2014.xcodeproj/project.xcworkspace/xcshareddata/micromouse2014.xccheckout
+micromouse2014/micromouse2014.xcodeproj/project.xcworkspace/xcuserdata/Lyle.xcuserdatad/UserInterfaceState.xcuserstate
+micromouse2014/micromouse2014.xcodeproj/xcuserdata/Lyle.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+micromouse2014/micromouse2014.xcodeproj/xcuserdata/Lyle.xcuserdatad/xcschemes/micromouse2014.xcscheme
+micromouse2014/micromouse2014.xcodeproj/xcuserdata/Lyle.xcuserdatad/xcschemes/xcschememanagement.plist
+micromouse2014/micromouse2014/micromouse2014.1
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/encoder.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/encoder.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/encoder.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/gpio.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/gpio.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/star.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/star.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/test.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/test.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/test.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/StaticAnalyzer/micromouse2014/micromouse2014/normal/x86_64/device.plist
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/StaticAnalyzer/micromouse2014/micromouse2014/normal/x86_64/encoder.plist
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/StaticAnalyzer/micromouse2014/micromouse2014/normal/x86_64/lidar.plist
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/StaticAnalyzer/micromouse2014/micromouse2014/normal/x86_64/packet.plist
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/StaticAnalyzer/micromouse2014/micromouse2014/normal/x86_64/wall.plist
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/tty.d
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/tty.dia
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/Objects-normal/x86_64/tty.o
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/StaticAnalyzer/micromouse2014/micromouse2014/normal/x86_64/main.plist
+micromouse2014/build/micromouse2014.build/Debug/micromouse2014.build/StaticAnalyzer/micromouse2014/micromouse2014/normal/x86_64/tty.plist
+micromouse2014/micromouse2014.xcodeproj/project.xcworkspace/xcuserdata/Lyle.xcuserdatad/xcdebugger/Expressions.xcexplist
+micromouse2014/build
+micromouse2014/micromouse2014.xcodeproj/xcuserdata/Lyle.xcuserdatad/xcschemes/lidar.xcscheme
+micromouse2014/micromouse2014.xcodeproj/xcuserdata/Lyle.xcuserdatad/xcschemes/mouse.xcscheme
+micromouse2014/micromouse2014/.makepp/device.cpp.mk
+micromouse2014/micromouse2014/.makepp/device.h.mk
+micromouse2014/micromouse2014/.makepp/gpio.cpp.mk
+micromouse2014/micromouse2014/.makepp/gpio.h.mk
+micromouse2014/micromouse2014/.makepp/lidar.cpp.mk
+micromouse2014/micromouse2014/.makepp/lidar.h.mk
+micromouse2014/micromouse2014/.makepp/log
+micromouse2014/micromouse2014/.makepp/main.cpp.mk
+micromouse2014/micromouse2014/.makepp/motor.cpp.mk
+micromouse2014/micromouse2014/.makepp/motor.h.mk
+micromouse2014/micromouse2014/.makepp/nav.cpp.mk
+micromouse2014/micromouse2014/.makepp/nav.h.mk
+micromouse2014/micromouse2014/.makepp/packet.cpp.mk
+micromouse2014/micromouse2014/.makepp/packet.h.mk
+micromouse2014/micromouse2014/.makepp/packet.o.mk
+micromouse2014/micromouse2014/.makepp/tty.cpp.mk
+micromouse2014/micromouse2014/.makepp/tty.h.mk
+micromouse2014/micromouse2014/.makepp/wall.cpp.mk
+micromouse2014/micromouse2014/.makepp/wall.h.mk
+micromouse2014/micromouse2014/device.cpp.orig
+micromouse2014/micromouse2014/device.h.gch
+micromouse2014/micromouse2014/device.h.orig
+micromouse2014/micromouse2014/gpio.h.gch
+micromouse2014/micromouse2014/motor.h.gch
+micromouse2014/micromouse2014/nav.cpp.orig
+micromouse2014/micromouse2014/nav.h.orig
+micromouse2014/micromouse2014/packet.o
